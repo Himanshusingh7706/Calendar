@@ -1,0 +1,45 @@
+.calendar {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.timezone-select {
+  padding: 1rem 0;
+}
+
+
+
+.day {
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.time{
+  display: flex;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* margin-bottom: 5px; */
+}
+
+.checkbox-label label {
+  /* margin-right: 5px; */
+}
+
+.checkbox-label input {
+  /* margin-right: 5px; */
+}
